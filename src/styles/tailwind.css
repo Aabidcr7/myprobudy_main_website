@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary Colors */
+    --primary-purple-1: #582591;
+    --primary-purple-2: #5d248f;
+    --primary-purple-3: #693795;
+    --primary-orange-1: #f9631c;
+    --primary-orange-2: #fc520c;
+    --primary-orange-3: #ff5216;
+    --primary-orange-4: #fa4300;
+    --primary-orange-5: #fc5109;
+
+    /* Background Colors */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8fafc;
+    --bg-tertiary: #fafafa;
+    --bg-quaternary: #fcfcfc;
+    --bg-light: #fdffff;
+    --bg-dark: #101010;
+    --bg-gray: #555555;
+
+    /* Text Colors */
+    --text-primary: #000000;
+    --text-secondary: #0c0c0c;
+    --text-tertiary: #1c1c1c;
+    --text-quaternary: #292929;
+    --text-muted: #3d495b;
+    --text-gray-1: #444444;
+    --text-gray-2: #52525b;
+    --text-gray-3: #53535c;
+    --text-gray-4: #545454;
+    --text-gray-5: #575757;
+    --text-gray-6: #636363;
+    --text-gray-7: #828282;
+    --text-gray-8: #888888;
+    --text-gray-9: #8a8a8a;
+    --text-light: #f1f5f9;
+    --text-white: #ffffff;
+    --text-placeholder: #999999;
+
+    /* Button Colors */
+    --btn-primary: #1c64f2;
+    --btn-orange-1: #fa4a05;
+    --btn-orange-2: #fc5109;
+    --btn-orange-3: #fd421d;
+    --btn-orange-4: #ff5200;
+
+    /* Input Colors */
+    --input-bg: #bbbbbb26;
+    --input-border: #88888819;
+  }
+}
+
+@layer utilities {
+  /* Primary Colors */
+  .bg-primary-purple-1 {
+    background-color: var(--primary-purple-1);
+  }
+  .bg-primary-purple-2 {
+    background-color: var(--primary-purple-2);
+  }
+  .bg-primary-orange-1 {
+    background-color: var(--primary-orange-1);
+  }
+  .bg-primary-orange-2 {
+    background-color: var(--primary-orange-2);
+  }
+
+  /* Background Colors */
+  .bg-main {
+    background-color: var(--bg-primary);
+  }
+  .bg-secondary {
+    background-color: var(--bg-secondary);
+  }
+  .bg-dark {
+    background-color: var(--bg-dark);
+  }
+  .bg-gray {
+    background-color: var(--bg-gray);
+  }
+
+  /* Text Colors */
+  .text-primary {
+    color: var(--text-primary);
+  }
+  .text-secondary {
+    color: var(--text-secondary);
+  }
+  .text-muted {
+    color: var(--text-muted);
+  }
+  .text-white {
+    color: var(--text-white);
+  }
+  .text-placeholder {
+    color: var(--text-placeholder);
+  }
+
+  /* Button Colors */
+  .bg-btn-primary {
+    background-color: var(--btn-primary);
+  }
+  .bg-btn-orange-1 {
+    background-color: var(--btn-orange-1);
+  }
+  .bg-btn-orange-2 {
+    background-color: var(--btn-orange-2);
+  }
+
+  /* Input Colors */
+  .bg-input {
+    background-color: var(--input-bg);
+  }
+}
