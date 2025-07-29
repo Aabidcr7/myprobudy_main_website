@@ -10,7 +10,7 @@ const ContactFormSection = ({ formData, handleInputChange, handleSubmit }) => {
       </div>
 
       <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-14 relative">
-        <div className="flex flex-col lg:flex-row justify-between items-center py-20 lg:py-24 gap-12 lg:gap-16">
+        <div className="flex flex-col lg:flex-row justify-between items-center pb-20 lg:pb-24 gap-12 lg:gap-16">
           {/* Left Content - Call to Action */}
           <div className="w-full lg:w-[45%] flex flex-col gap-6 lg:gap-8 justify-start items-start text-center lg:text-left">
             <div className="flex flex-col gap-2 lg:gap-3">
@@ -150,7 +150,7 @@ const ContactFormSection = ({ formData, handleInputChange, handleSubmit }) => {
 
                   {/* Trust Indicators */}
                   <div className="flex items-center justify-center gap-4 w-full pt-4 border-t border-gray-100">
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-2 mr-4">
                       <svg
                         className="w-4 h-4 text-green-500"
                         fill="currentColor"
@@ -164,7 +164,7 @@ const ContactFormSection = ({ formData, handleInputChange, handleSubmit }) => {
                       </svg>
                       <span className="text-sm text-gray-600">Free Consultation</span>
                     </div>
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-2 ml-4">
                       <svg
                         className="w-4 h-4 text-green-500"
                         fill="currentColor"

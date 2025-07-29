@@ -13,6 +13,7 @@ import TestimonialsSection from './components/TestimonialsSection';
 import GetFundedSection from './components/GetFundedSection';
 import AcceleratorsSection from './components/AcceleratorsSection';
 import RecognitionSection from './components/RecognitionSection';
+import ExpertMentorshipSection from './components/ExpertMentorshipSection';
 import ContactFormSection from './components/ContactFormSection';
 const Home = () => {
   const [formData, setFormData] = useState({
@@ -58,6 +59,7 @@ const Home = () => {
         <GetFundedSection />
         <AcceleratorsSection />
         <RecognitionSection />
+        <ExpertMentorshipSection />
         <ContactFormSection
           formData={formData}
           handleInputChange={handleInputChange}
